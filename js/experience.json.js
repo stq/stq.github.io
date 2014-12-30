@@ -289,7 +289,7 @@ var Profile = {
                     tools: "JBoss, Git, Webkit"
                 },
                 {
-                    range: ["Mar, 2014", "Jan, 2015"],
+                    range: ["May, 2014", "Jan, 2015"],
                     name: "eGov.kz v2",
                     desc: "A web portal and kiosk-mode web app designed to provide a variety of governmental services to individual and organizations",
                     role: "Frontend Architect",
