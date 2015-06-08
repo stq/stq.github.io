@@ -289,7 +289,7 @@ var Profile = {
                     tools: "JBoss, Git, Webkit"
                 },
                 {
-                    range: ["May, 2014", "Jan, 2015"],
+                    range: ["May, 2014", "Feb, 2015"],
                     name: "eGov.kz v2",
                     desc: "A web portal and kiosk-mode web app designed to provide a variety of governmental services to individual and organizations",
                     role: "Frontend Architect",
@@ -300,7 +300,18 @@ var Profile = {
                     tools: "NodeJS, Git, Webkit"
                 }
             ]
+        },
+        "Current Work": {
+            projects: [
+                {
+                    range: ["Mar, 2015", "Mar, 2016"],
+                    name: "Social network mobile web client",
+                    desc: "A web site targeting mobile and tablet platforms, presenting certain functionality of the well known social network",
+                    role: "Tech lead",
+                    participation: "Technology revamp, features implementation",
+                    skills: "Gulp, HTML/CSS, Node.js (Express, Browserify)"
+                }
+            ]
         }
-
     }
 }

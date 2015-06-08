@@ -42,8 +42,11 @@ function SkillCloud(data) {
         var skillMapLvl2 = {};
         $.each(skillMap, function(entry, projects){
 
-            var duration = 0;
+            var duration = 0, weight = 0;
             $.each(projects, function(i, project){
+                var diff =  moment().diff(moment(project.stats.endDate), 'years');
+                var coef = 1/diff;
+                weight += project.stats.duration*coef;
                 duration += project.stats.duration;
             });
 
@@ -52,7 +55,8 @@ function SkillCloud(data) {
             if( ! skillMapLvl2[skillName] ){
                 skillMapLvl2[skillName] = { count: 0 };
             }
-            skillMapLvl2[skillName].count += duration;
+            skillMapLvl2[skillName].weight += weight;
+            skillMapLvl2[skillName].duration += duration;
 
             if( subSkillsSplit.length > 1 ) {
                 if( ! skillMapLvl2[skillName].sub ) skillMapLvl2[skillName].sub = {};
@@ -60,7 +64,8 @@ function SkillCloud(data) {
                 $.each(subSkills, function(subIndex, subSkill){ subSkills[subIndex] = $.trim(subSkill); });
                 $.each(subSkills, function( i, subSkillName ) {
                     if( ! skillMapLvl2[skillName].sub[subSkillName] ) skillMapLvl2[skillName].sub[subSkillName] = { count: 0 };
-                    skillMapLvl2[skillName].sub[subSkillName].count += duration;
+                    skillMapLvl2[skillName].sub[subSkillName].weight += weight;
+                    skillMapLvl2[skillName].sub[subSkillName].duration += duration;
                 });
             }
         });
