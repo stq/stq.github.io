@@ -42,30 +42,30 @@ function SkillCloud(data) {
         var skillMapLvl2 = {};
         $.each(skillMap, function(entry, projects){
 
-            var duration = 0, weight = 0;
+            var count = 0, weight = 0;
             $.each(projects, function(i, project){
                 var diff =  moment().diff(moment(project.stats.endDate), 'years') || 1;
                 var coef = 1/diff;
                 weight += project.stats.duration*coef;
-                duration += project.stats.duration;
+                count += project.stats.duration;
             });
 
             var subSkillsSplit = entry.split("(");
             var skillName = $.trim(subSkillsSplit[0]);
             if( ! skillMapLvl2[skillName] ){
-                skillMapLvl2[skillName] = { weight: 0, duration: 0 };
+                skillMapLvl2[skillName] = { weight: 0, count: 0 };
             }
             skillMapLvl2[skillName].weight += weight;
-            skillMapLvl2[skillName].duration += duration;
+            skillMapLvl2[skillName].count += count;
 
             if( subSkillsSplit.length > 1 ) {
                 if( ! skillMapLvl2[skillName].sub ) skillMapLvl2[skillName].sub = {};
                 var subSkills = subSkillsSplit[1].replace(/\)/g, "").split(";");
                 $.each(subSkills, function(subIndex, subSkill){ subSkills[subIndex] = $.trim(subSkill); });
                 $.each(subSkills, function( i, subSkillName ) {
-                    if( ! skillMapLvl2[skillName].sub[subSkillName] ) skillMapLvl2[skillName].sub[subSkillName] = { weight: 0, duration: 0 };
+                    if( ! skillMapLvl2[skillName].sub[subSkillName] ) skillMapLvl2[skillName].sub[subSkillName] = { weight: 0, count: 0 };
                     skillMapLvl2[skillName].sub[subSkillName].weight += weight;
-                    skillMapLvl2[skillName].sub[subSkillName].duration += duration;
+                    skillMapLvl2[skillName].sub[subSkillName].count += count;
                 });
             }
         });

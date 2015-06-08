@@ -365,13 +365,13 @@
 
 <script type="text/tpl" id="skill-tpl">
         <% var fontSize = ~~(skill.weight*0.3)+10, padSize = ~~(skill.weight*0.1) + 7; %>
-        <div class="skill tag" style="font-size: <%=fontSize%>px; padding-left: <%=padSize%>px; padding-right: <%=padSize%>px;" title="<%=Util.formatMonthDuration(skill.duration)%>" alttitle="<%=Util.formatMonthDuration(skill.duration)%>">
+        <div class="skill tag" style="font-size: <%=fontSize%>px; padding-left: <%=padSize%>px; padding-right: <%=padSize%>px;" title="<%=Util.formatMonthDuration(skill.count)%>" alttitle="<%=Util.formatMonthDuration(skill.count)%>">
             <%=skill.name%>
             <% if( skill.sub!=null ) { %>
                 (
                     <% $.each(skill.sub, function(subIndex, subSkill) { %>
                         <% var subFontSize = ~~(subSkill.weight*0.3)+10; %>
-                        <span class="subskill tag" style="font-size: <%=subFontSize%>px;" title="<%=Util.formatMonthDuration(subSkill.duration)%>">
+                        <span class="subskill tag" style="font-size: <%=subFontSize%>px;" title="<%=Util.formatMonthDuration(subSkill.count)%>">
                             <%=subSkill.name%>
                         </span>
                         <span style="font-size: <%=fontSize%>px; margin: 0; padding: 0'" title><%= skill.sub.length - 1 == subIndex ? "": "," %></span>
