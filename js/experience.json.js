@@ -168,7 +168,7 @@ var Profile = {
                     role: "Contractor, Java developer",
                     participation: "Web service development.",
                     achievements: "Contractor experience, GWT experience.",
-                    skills: "Java, SQL, OSCi, ORM (Hibernate), Spring (DI; ORM), GWT, Ext GWT, Portlets, Java EE(Servlets, EJB)",
+                    skills: "Java, SQL, OSCi, ORM (Hibernate), Spring (DI; ORM), GWT, Ext GWT, Portlets, Java EE(Servlets; EJB)",
                     team: "20-30",
                     tools: "Karaf, Liferay, Tomcat, SVN"
                 }
@@ -269,7 +269,7 @@ var Profile = {
                     "Development and support of various web widgets. " +
                     "Development of OAuth authentication flow.",
                     achievements: "Major boost on web skills. Getting over highcharts limits. Advanced Agile methodology experience.",
-                    skills: "Javascript (jQuery; Backbone; Underscore; Highcharts), HTML/CSS, SVG, VML, Raphael, JSP/EL/JSTL, Java, Spring (DI; MVC; REST), Stripes, Guava, Java EE(Servlets, JMS), ORM (Hibernate), NoSQL (Cassandra)",
+                    skills: "Javascript (jQuery; Backbone; Underscore; Highcharts), HTML/CSS, SVG, VML, Raphael, JSP/EL/JSTL, Java, Spring (DI; MVC; REST), Stripes, Guava, Java EE(Servlets; JMS), ORM (Hibernate), NoSQL (Cassandra)",
                     team: "10-15",
                     tools: "Tomcat, Oracle, Cassandra, SVN, Git, Fiddler"
                 }
