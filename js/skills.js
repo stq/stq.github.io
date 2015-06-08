@@ -11,6 +11,7 @@ function SkillCloud(data) {
             result.push({
                 name: name,
                 count: item.count,
+                weight: item.weight,
                 sub: arrangeSkills(item.sub)
             })
         });
@@ -44,28 +45,27 @@ function SkillCloud(data) {
 
             var count = 0, weight = 0;
             $.each(projects, function(i, project){
-                var diff =  moment().diff(moment(project.stats.endDate), 'years') || 1;
-                var coef = 1/diff;
-                weight += project.stats.duration*coef;
+                var diff = moment().diff(moment(project.stats.endDate), 'months') || 1;
                 count += project.stats.duration;
+                weight += 10*project.stats.duration/diff;
             });
 
             var subSkillsSplit = entry.split("(");
             var skillName = $.trim(subSkillsSplit[0]);
             if( ! skillMapLvl2[skillName] ){
-                skillMapLvl2[skillName] = { weight: 0, count: 0 };
+                skillMapLvl2[skillName] = { count: 0, weight: 0 };
             }
-            skillMapLvl2[skillName].weight += weight;
             skillMapLvl2[skillName].count += count;
+            skillMapLvl2[skillName].weight += weight;
 
             if( subSkillsSplit.length > 1 ) {
                 if( ! skillMapLvl2[skillName].sub ) skillMapLvl2[skillName].sub = {};
                 var subSkills = subSkillsSplit[1].replace(/\)/g, "").split(";");
                 $.each(subSkills, function(subIndex, subSkill){ subSkills[subIndex] = $.trim(subSkill); });
                 $.each(subSkills, function( i, subSkillName ) {
-                    if( ! skillMapLvl2[skillName].sub[subSkillName] ) skillMapLvl2[skillName].sub[subSkillName] = { weight: 0, count: 0 };
-                    skillMapLvl2[skillName].sub[subSkillName].weight += weight;
+                    if( ! skillMapLvl2[skillName].sub[subSkillName] ) skillMapLvl2[skillName].sub[subSkillName] = { count: 0, weight: 0 };
                     skillMapLvl2[skillName].sub[subSkillName].count += count;
+                    skillMapLvl2[skillName].sub[subSkillName].weight += weight;
                 });
             }
         });

@@ -146,6 +146,7 @@
                 <div class="group">
                     <div class="header"><span>Technology experience <span class="notice">(hover for details)</span></span></div>
                     <div class="technologies"></div>
+                    <div class="notice">*Skillbox size is in straight proportion to experience with it and in reverse proportion with time since its last use</div>
                 </div>
 
                 <div class="group">
@@ -363,7 +364,7 @@
         </div>
     </script>
 
-<script type="text/tpl" id="skill-tpl">
+    <script type="text/tpl" id="skill-tpl">
         <% var fontSize = ~~(skill.weight*0.3)+10, padSize = ~~(skill.weight*0.1) + 7; %>
         <div class="skill tag" style="font-size: <%=fontSize%>px; padding-left: <%=padSize%>px; padding-right: <%=padSize%>px;" title="<%=Util.formatMonthDuration(skill.count)%>" alttitle="<%=Util.formatMonthDuration(skill.count)%>">
             <%=skill.name%>

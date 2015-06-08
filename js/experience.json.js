@@ -9,7 +9,7 @@ var Profile = {
                     role: "Java developer",
                     participation: "Presentation layer and business logic implementation.",
                     achievements: "Promoted JSP Tag unit tests.",
-                    skills: "Java, JSP/EL/JSTL, HTML/CSS, Struts 1.x, JUnit, WSDL, Apache Axis, Java EE (Servlets)",
+                    skills: "Java, JSP/EL/JSTL, HTML/CSS, Struts 1.x, JUnit, WSDL, Axis, Java EE (Servlets)",
                     team: "5-10",
                     tools: "Tomcat, VSS"
                 }
@@ -21,7 +21,7 @@ var Profile = {
                     role: "Web developer, Java developer",
                     participation: "Presentation layer and business logic implementation.",
                     achievements: "Perfect teamwork, happy customer.",
-                    skills: "Javascript, DWR, Java, JSP/EL/JSTL, HTML/CSS, Struts 1.x, JUnit, WSDL, Apache Axis, Java EE (Servlets)",
+                    skills: "Javascript, DWR, Java, JSP/EL/JSTL, HTML/CSS, Struts 1.x, JUnit, WSDL, Axis, Java EE (Servlets)",
                     team: "5-10",
                     tools: "Tomcat, VSS"
                 }
@@ -33,7 +33,7 @@ var Profile = {
                     role: "Web developer, Java developer",
                     participation: "Research and architecture on web communication layer. Development and support of custom BREAD MVC framework.",
                     achievements: "Introduction of custom model-view javascript framework.",
-                    skills: "Javascript, Java, JSP/EL/JSTL, HTML/CSS, Struts 1.x, JUnit, WSDL, Apache Axis, Java EE (Servlets)",
+                    skills: "Javascript, Java, JSP/EL/JSTL, HTML/CSS, Struts 1.x, JUnit, WSDL, Axis, Java EE (Servlets)",
                     team: "5-10",
                     tools: "Tomcat, Ant, VSS"
                 }
@@ -45,7 +45,7 @@ var Profile = {
                     role: "Java developer",
                     participation: "Design and development of booking services. Assisting with integration.",
                     achievements: "Good experience with web services.",
-                    skills: "UML, Java, Struts 1.x, JSP/EL/JSTL, JUnit, WSDL, Apache Axis)",
+                    skills: "UML, Java, Struts 1.x, JSP/EL/JSTL, JUnit, WSDL, Axis",
                     team: "10-15",
                     tools: "Enterprise Architect, CVS/SVN"
                 }
@@ -102,7 +102,7 @@ var Profile = {
                     role: "Web developer",
                     participation: "WSDL development, web frontend development, integration with Agava CRM.",
                     achievements: "Boost on HTML/CSS skills.",
-                    skills: "Java, Javascript(jQuery), HTML/CSS, Java EE (Servlets; Web services), Axis, Axis WSF",
+                    skills: "Java, Javascript(jQuery), HTML/CSS, Java EE (Servlets; Web services), Axis",
                     team: "2-3",
                     tools: "JBoss, Apache HTTP, nginx, ant, CVS"
                 }
@@ -295,12 +295,13 @@ var Profile = {
                     role: "Frontend Architect",
                     participation: "Development and support of toolchain, frameworks, web components. Team/PM assistance.",
                     achievements: "Suggested development methodologies which gave major boost on development performance",
-                    skills: "Javascript (Angular, Lodash), Node.js (Express, Walk), HTML/CSS",
+                    skills: "Javascript (Angular; Lodash), Node.js (Express), HTML/CSS",
                     team: "38",
                     tools: "NodeJS, Git, Webkit"
                 }
             ]
-        },
+        }
+        ,
         "Current Work": {
             projects: [
                 {
@@ -309,7 +310,7 @@ var Profile = {
                     desc: "A web site targeting mobile and tablet platforms, presenting certain functionality of the well known social network",
                     role: "Tech lead",
                     participation: "Technology revamp, features implementation",
-                    skills: "Gulp, HTML/CSS, Node.js (Express, Browserify)"
+                    skills: "Gulp, HTML/CSS, Node.js (Express; Browserify)"
                 }
             ]
         }
