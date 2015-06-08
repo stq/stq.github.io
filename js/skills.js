@@ -53,7 +53,7 @@ function SkillCloud(data) {
             var subSkillsSplit = entry.split("(");
             var skillName = $.trim(subSkillsSplit[0]);
             if( ! skillMapLvl2[skillName] ){
-                skillMapLvl2[skillName] = { count: 0 };
+                skillMapLvl2[skillName] = { weight: 0, duration: 0 };
             }
             skillMapLvl2[skillName].weight += weight;
             skillMapLvl2[skillName].duration += duration;
@@ -63,7 +63,7 @@ function SkillCloud(data) {
                 var subSkills = subSkillsSplit[1].replace(/\)/g, "").split(";");
                 $.each(subSkills, function(subIndex, subSkill){ subSkills[subIndex] = $.trim(subSkill); });
                 $.each(subSkills, function( i, subSkillName ) {
-                    if( ! skillMapLvl2[skillName].sub[subSkillName] ) skillMapLvl2[skillName].sub[subSkillName] = { count: 0 };
+                    if( ! skillMapLvl2[skillName].sub[subSkillName] ) skillMapLvl2[skillName].sub[subSkillName] = { weight: 0, duration: 0 };
                     skillMapLvl2[skillName].sub[subSkillName].weight += weight;
                     skillMapLvl2[skillName].sub[subSkillName].duration += duration;
                 });
