@@ -44,7 +44,7 @@ function SkillCloud(data) {
 
             var duration = 0, weight = 0;
             $.each(projects, function(i, project){
-                var diff =  moment().diff(moment(project.stats.endDate), 'years');
+                var diff =  moment().diff(moment(project.stats.endDate), 'years') || 1;
                 var coef = 1/diff;
                 weight += project.stats.duration*coef;
                 duration += project.stats.duration;

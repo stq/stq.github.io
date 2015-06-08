@@ -304,7 +304,7 @@ var Profile = {
         "Current Work": {
             projects: [
                 {
-                    range: ["Mar, 2015", "Mar, 2016"],
+                    range: ["Mar, 2015", "June, 2015"],
                     name: "Social network mobile web client",
                     desc: "A web site targeting mobile and tablet platforms, presenting certain functionality of the well known social network",
                     role: "Tech lead",
