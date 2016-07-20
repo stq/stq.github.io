@@ -289,7 +289,7 @@ var Profile = {
                     tools: "JBoss, Git, Webkit"
                 },
                 {
-                    range: ["May, 2014", "Feb, 2015"],
+                    range: ["May, 2014", "Jan, 2015"],
                     name: "eGov.kz v2",
                     desc: "A web portal and kiosk-mode web app designed to provide a variety of governmental services to individual and organizations",
                     role: "Frontend Architect",
@@ -300,17 +300,37 @@ var Profile = {
                     tools: "NodeJS, Git, Webkit"
                 }
             ]
-        }
-        ,
-        "Current Work": {
+        },
+        "Social Discovery Ventures": {
             projects: [
                 {
-                    range: ["Mar, 2015", "June, 2015"],
+                    range: ["Feb, 2015", "May, 2015"],
                     name: "Social network mobile web client",
                     desc: "A web site targeting mobile and tablet platforms, presenting certain functionality of the well known social network",
                     role: "Tech lead",
                     participation: "Technology revamp, features implementation",
                     skills: "Gulp, HTML/CSS, Node.js (Express; Browserify)"
+                }
+            ]
+        },
+        "Andersen soft": {
+            projects: [
+                {
+                    range: ["Jul, 2015", "Feb, 2016"],
+                    name: "IHS.com / BOM Intelligence",
+                    desc: "A SPA client app with UI implementing a set of BOM management features",
+                    role: "Frontend Architect / Team lead / Tech lead",
+                    participation: "Codebase (build tools and client app) creation and support, team management, devops assistance",
+                    achievements: "Created from scratch comfortable, scalable code base",
+                    skills: "Gulp, Webpack, Karma, Protractor, Jasmine, Angular1.5, Lodash, Node.js, HTML/CSS"
+                },
+                {
+                    range: ["Mar, 2016", "Jul, 2016"],
+                    name: "Tinkoff Bank / Online banking client for organizations ",
+                    desc: "A set of web applications, which provide full-scale online set of banking, tools for organizations",
+                    role: "Senior Developer / Team Mentor",
+                    participation: "Development, expertise assistance, training team members",
+                    skills: "Angular1.5/2, ES6, Typescript, Webpack, Gulp, Karma, Jasmine, Lodash, Node.js, HTML/CSS"
                 }
             ]
         }

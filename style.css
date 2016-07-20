@@ -253,8 +253,12 @@ a:hover {
     color: #008;
 }
 
-.summary div.entry div.desc {
+
+.summary .entry .desc .secondary {
+    color: #999;
 }
+
+
 
 .summary > div div {
     display:inline-block;
