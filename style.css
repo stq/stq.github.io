@@ -81,7 +81,7 @@ a:hover {
 }
 
 .header > div {
-    background-color: #eef;
+    background-color: #e1f5fe;
 }
 
 .header table {
@@ -173,7 +173,7 @@ a:hover {
 }
 
 .nav ul > li:hover {
-    text-shadow: 0 1px #CCF;
+    text-shadow: 0 1px #e1f5fe;
     border: 2px solid #999;
     border-bottom-color: #999;
 }
@@ -292,7 +292,7 @@ a:hover {
 }
 
 .notice {
-    font-size: 10px;
+    font-size: 12px;
     color: #999;
 }
 
@@ -332,6 +332,11 @@ a:hover {
     min-height: 250px;
     background-color: #f0f0f0;
 
+}
+
+.experience .projlabel {
+    font-style: italic;
+    display: block;
 }
 
 .project {
@@ -382,7 +387,7 @@ a:hover {
 
 .project .date .duration td.rate {
     font-weight: bold;
-    font-size: 10px;
+    font-size: 12px;
     font-family: monospace;
 }
 
@@ -479,7 +484,7 @@ a:hover {
 }
 
 .project .project-info .stats {
-    font-size: 10px;
+    font-size: 12px;
     padding: 8px 0;
 }
 
@@ -524,28 +529,26 @@ a:hover {
     cursor: default;
     padding: 8px 12px 2px 12px;
     margin: 4px 0 6px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .skills .technologies .tag {
     line-height: 0.8em;
     margin: 3px;
+    padding-left: 10px;
+}
 
+.skills .yeargrid {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
 }
 
 .skills .technologies .skill.tag {
-    display: inline-block;
     padding: 6px 0 8px 0;
     background-color: #e6e6e6;
     overflow: hidden;
-}
-
-.skills .technologies .subskill.tag {
-    padding: 40px 0;
-    margin:0;
-}
-
-.skills .technologies .subskill.tag:hover {
-    background-color: #d0d0d0;
 }
 
 .skills > div {

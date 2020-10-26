@@ -27,7 +27,7 @@ var HeaderFx = function(){
         if( _frameCounter ) clearInterval(_frameCounter);
         _frameCounter = setInterval(function(){
             if( _frame < _colors.length-1 ) _frame++;
-            if( _frame == _colors.length-1 ){
+            if( _frame === _colors.length-1 ){
                 clearInterval(_frameCounter);
                 _frameCounter = null;
             }
@@ -39,7 +39,7 @@ var HeaderFx = function(){
         if( _frameCounter ) clearInterval(_frameCounter);
         _frameCounter = setInterval(function(){
             if( _frame > 0 ) _frame--;
-            if( _frame == 0 ){
+            if( _frame === 0 ){
                 clearInterval(_frameCounter);
                 _frameCounter = null;
             }

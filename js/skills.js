@@ -1,100 +1,103 @@
 function SkillCloud(data) {
 
-    var _data = data;
+  var _data = data;
 
-    var arrangeSkills = function(skillMap) {
+  var arrangeSkills = function (skillMap) {
 
-        if( ! skillMap ) return null;
+    if (!skillMap) return null;
 
-        var result = [];
-        $.each(skillMap, function(name, item){
-            result.push({
-                name: name,
-                count: item.count,
-                weight: item.weight,
-                sub: arrangeSkills(item.sub)
-            })
+    var result = [];
+    $.each(skillMap, function (name, item) {
+      result.push({
+        name: name,
+        count: item.count,
+        start: item.start,
+        end: item.end,
+        weight: item.weight,
+        shift: item.shift
+      })
+    });
+
+
+    result = result.filter(function(s){return s.count >= 1});
+    console.log('lookhere1', result);
+
+    result = result.sort(function(a,b){
+      if( a.end === b.end ) {
+        return a.count - b.count;
+      }
+      return a.end - b.end;
+    });
+    console.log('lookhere2', result);
+
+    result = result.reverse();
+    console.log('lookhere3', result);
+
+    return result;
+  };
+
+  (function () {
+
+    if ($("div.technologies .tag").length > 0) return;
+
+    var skillMap = {};
+    $.each(_data.getCompanies(), function (companyName, company) {
+      $.each(company.projects, function (projectIndex, project) {
+        var skills = project.skills.split(",");
+        $.each(skills, function (projectSkillIndex, skill) {
+          var skillName = $.trim(skill);
+          if (!skillMap[skillName]) {
+            skillMap[skillName] = [];
+          }
+          skillMap[skillName].push(project);
         });
+      });
+    });
 
-        result = result.sort(function(a, b){return b.count - a.count;});
+    var skillsVm = {};
+    var minStartDate, maxEndDate;
+    $.each(skillMap, function (entry, projects) {
+      var skillName = $.trim(entry);
 
-        return result;
-    };
+      var skillMonths = 0, minDate, maxDate;
+      $.each(projects, function (i, project) {
+        skillMonths += project.stats.duration;
+        minDate = (!minDate || moment(project.stats.startDate).isBefore(minDate)) && project.stats.startDate || minDate;
+        maxDate = (!maxDate || moment(project.stats.endDate).isAfter(maxDate)) && project.stats.endDate || maxDate;
+      });
 
-    //constructor
-    (function(){
+      skillsVm[skillName] = {
+        count: skillMonths,
+        minDate: minDate,
+        maxDate: maxDate
+      };
 
-        if( $("div.technologies .tag").length>0 ) return;
+      minStartDate = (!minStartDate || moment(minDate).isBefore(minStartDate)) && minDate || minStartDate;
+      maxEndDate = (!maxEndDate || moment(maxDate).isAfter(maxEndDate)) && maxDate || maxEndDate;
+    });
 
-        var skillMap = {};
-        $.each(_data.getCompanies(), function(companyName, company){
-            $.each(company.projects, function(projectIndex, project){
-                var skills = project.skills.split(",");
-                $.each(skills, function(projectSkillIndex, skill){
-                    var skillName = $.trim(skill);
-                    if( ! skillMap[skillName] ) {
-                        skillMap[skillName] = [];
-                    }
-                    skillMap[skillName].push(project);
-                });
-            });
-        });
+    var totalMonth = Util.getMonthDuration(minStartDate, maxEndDate);
 
-        var skillMapLvl2 = {};
-        $.each(skillMap, function(entry, projects){
+    $.each(skillsVm, function(skillName, skill){
+      skill.start = Util.getMonthDuration(minStartDate, skill.minDate)/totalMonth;
+      skill.end = Util.getMonthDuration(minStartDate, skill.maxDate)/totalMonth;
+      skill.shift = Util.getMonthDuration(skill.maxDate, maxEndDate)/totalMonth;
+      skill.weight = skill.count/totalMonth;
+    });
 
-            var count = 0, weight = 0;
-            $.each(projects, function(i, project){
-                var diff = moment().diff(moment(project.stats.endDate), 'months') || 1;
-                count += project.stats.duration;
-                weight += 10*project.stats.duration/diff;
-            });
 
-            var subSkillsSplit = entry.split("(");
-            var skillName = $.trim(subSkillsSplit[0]);
-            if( ! skillMapLvl2[skillName] ){
-                skillMapLvl2[skillName] = { count: 0, weight: 0 };
-            }
-            skillMapLvl2[skillName].count += count;
-            skillMapLvl2[skillName].weight += weight;
+    //render skill view
+    var tpl = _.template($("#skill-tpl").html());
+    $.each(arrangeSkills(skillsVm), function (skillIndex, skill) {
+      var skillHtml = tpl({skill: skill});
+      skillHtml = skillHtml.replace(/\n/g, "").replace(/(>)(\s*)(\S*)/g, "$1$3").replace(/(\S*)(\s*)(<)/g, "$1$3").replace(/(\S*)(\s*)(\()/g, "$1$3").replace(/(\))(\s*)(\S*)/g, "$1$3").replace(/(>)(\s*)(\))/g, "$1$3");
+      $(".skills .technologies").append(skillHtml);
+    });
 
-            if( subSkillsSplit.length > 1 ) {
-                if( ! skillMapLvl2[skillName].sub ) skillMapLvl2[skillName].sub = {};
-                var subSkills = subSkillsSplit[1].replace(/\)/g, "").split(";");
-                $.each(subSkills, function(subIndex, subSkill){ subSkills[subIndex] = $.trim(subSkill); });
-                $.each(subSkills, function( i, subSkillName ) {
-                    if( ! skillMapLvl2[skillName].sub[subSkillName] ) skillMapLvl2[skillName].sub[subSkillName] = { count: 0, weight: 0 };
-                    skillMapLvl2[skillName].sub[subSkillName].count += count;
-                    skillMapLvl2[skillName].sub[subSkillName].weight += weight;
-                });
-            }
-        });
+    //skill auto tooltip
+    $(".skills .technologies .tag").tooltip({show: {effect: "fade", duration: 10}});
+  })();
 
-        //render skill view
-        var tpl = _.template($("#skill-tpl").html());
-        $.each(arrangeSkills(skillMapLvl2), function(skillIndex, skill){
-            var skillHtml = tpl({skill: skill});
-            //ugly code to remove html spaces which make layout look messy
-            skillHtml = skillHtml.replace(/\n/g, "").
-                replace(/(>)(\s*)(\S*)/g, "$1$3").
-                replace(/(\S*)(\s*)(<)/g, "$1$3").
-                replace(/(\S*)(\s*)(\()/g, "$1$3").
-                replace(/(\))(\s*)(\S*)/g, "$1$3").
-                replace(/(>)(\s*)(\))/g, "$1$3");
-            $(".skills .technologies").append(skillHtml);
-        });
-
-        //skill & subskill auto tooltip
-        $(".skills .technologies .tag").tooltip({ show : {effect: "fade", duration: 10 }});
-        //enable second tooltip for subskill group
-        $(".skills .technologies div.tag.skill").mousemove(function(){
-            if( ! $(this).attr("aria-describedby") ){
-                if(! $(this).attr("title")) { $(this).attr("title", $(this).attr("alttitle")); } // fix for jquery tooltip bug which sometimes make title reset
-                $(this).tooltip("open");
-            }
-        });
-    })();
-
-    return {};
+  return {};
 }
 

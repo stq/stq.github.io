@@ -81,8 +81,8 @@ var Main = function(){
         };
 
         var load = function(id){
-            $("body").toggleClass("fluid", id=="experience");//special css mode for convinient experience scrolling
-            $(".nicescroll-rails").toggle(id=="experience");//nicescroll sometimes fail to hide itself, so we do it manually
+            $("body").toggleClass("fluid", id==="experience");//special css mode for convinient experience scrolling
+            $(".nicescroll-rails").toggle(id==="experience");//nicescroll sometimes fail to hide itself, so we do it manually
             _panels.set[id].init();
         };
 
