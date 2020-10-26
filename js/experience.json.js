@@ -8,26 +8,26 @@ var Profile = {
                     role: "Java web developer",
                     participation: "Java frontend development",
                     achievements: "Promoted JSP Tag unit tests.",
-                    skills: "Java, JSP/EL/JSTL, HTML/CSS, Struts 1.x, JUnit, WSDL, Axis, Java EE Servlets"
+                    skills: "Java, JSP/EL/JSTL, HTML/CSS, Struts, JUnit, WSDL, Axis, Java EE Servlets"
                 },{
                     range: ["Jul, 2005", "Dec, 2005"],
                     name: "Scandinavian Airlines booking",
                     role: "Java web developer",
                     participation: "Presentation layer and business logic implementation.",
-                    skills: "Javascript, DWR, Java, JSP/EL/JSTL, HTML/CSS, Struts 1.x, JUnit, WSDL, Axis, Java EE Servlets"
+                    skills: "Javascript, DWR, Java, JSP/EL/JSTL, HTML/CSS, Struts, JUnit, WSDL, Axis, Java EE Servlets"
                 },{
                     range: ["Jan, 2006", "Sep, 2006"],
                     name: "Vail Resorts call center",
                     role: "Java web developer",
                     participation: "Research and architecture on web communication layer. Development and support of custom BREAD MVC framework.",
                     achievements: "Created custom MVC javascript framework.",
-                    skills: "Javascript, Java, JSP/EL/JSTL, HTML/CSS, Struts 1.x, JUnit, WSDL, Axis, Java EE Servlets"
+                    skills: "Javascript, Java, JSP/EL/JSTL, HTML/CSS, Struts, JUnit, WSDL, Axis, Java EE Servlets"
                 },{
                     range: ["Oct, 2006", "Aug, 2007"],
                     name: "Travel Distribution Platform, generic travel/booking platform",
                     role: "Java web services developer, Java web developer",
                     participation: "Design of booking web services. Integration with particular customers.",
-                    skills: "UML, Java, Struts 1.x, JSP/EL/JSTL, JUnit, WSDL, Axis"
+                    skills: "UML, Java, Struts, JSP/EL/JSTL, JUnit, WSDL, Axis"
                 }
             ]
         },
@@ -112,7 +112,7 @@ var Profile = {
                     name: "PeopleNet logistics cargo routing and tracking web application",
                     role: "Java web developer",
                     participation: "Web service development, GWT components development.",
-                    skills: "Java, SQL, OSCi, ORM Hibernate, Spring (DI; ORM), GWT, Ext GWT, Portlets, Java EE Servlets, EJB, Karaf, Liferay"
+                    skills: "Java, SQL, OSCi, ORM Hibernate, Spring, GWT, Ext GWT, Portlets, Java EE Servlets, EJB, Karaf, Liferay"
                 },{
                     range: ["Aug, 2011"],
                     name: "Automated fine payment system for customs application",
@@ -125,14 +125,14 @@ var Profile = {
                     role: "Lead developer, Team management",
                     participation: "Technology assistance, project management, development.",
                     achievements: "Project management skills, SVG experience.",
-                    skills: "Java, HTML/CSS, SVG, VML, RaphaelGWT, Raphael, Guava, ORM Hibernate, Apache Batic, Javascript, jQuery, Java EE Servlets, JBoss, PostGRE, Wowza"
+                    skills: "Java, HTML/CSS, SVG, VML, RaphaelGWT, Raphael, Guava, ORM Hibernate, Javascript, jQuery, Java EE Servlets, JBoss, PostGRE"
                 },{
                     range: ["Feb, 2012", "Apr, 2012"],
                     name: "Mind.com webinars",
                     desc: "Online webinars system.",
                     role: "Java developer, Web developer",
                     participation: "Development of various features and improvements.",
-                    skills: "Java, HTML/CSS, SVG, VML, RaphaelGWT, Raphael, Guava, Hibernate, Apache Batic, Java EE(Servlets), JBoss, PostGRE, Wowza"
+                    skills: "Java, HTML/CSS, SVG, VML, RaphaelGWT, Raphael, Guava, Hibernate, Java EE Servlets, JBoss, PostGRE"
                 },{
                     range: ["May, 2012"],
                     name: "YouTube downloader",
@@ -237,7 +237,7 @@ var Profile = {
                 name: "Comparethemarket energy providers comparing webapp",
                 role: "Senior Developer",
                 participation: "Backend development",
-                skills: "Javascript, Node.js, C#, Mongodb"
+                skills: "Javascript, Node.js, Mongodb"
               },
               {
                 range: ["May, 2018", "Aug, 2020"],
