@@ -19,7 +19,7 @@ function SkillCloud(data) {
     });
 
 
-    result = result.filter(function(s){return s.count >= 1});
+    result = result.filter(function(s){return s.count >= 24});
     console.log('lookhere1', result);
 
     result = result.sort(function(a,b){
