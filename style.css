@@ -68,11 +68,11 @@ body {
 
 a {
     text-decoration: none;
-    color: #55F;
+    color: rgb(85, 170, 221);
 }
 
 a:hover {
-    color: #00A;
+    text-shadow: 0 0 1px rgb(85, 170, 221);
 }
 
 .header {
@@ -123,7 +123,7 @@ a:hover {
 
 .header .downloads span {
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .header .downloads span a {
@@ -141,13 +141,6 @@ a:hover {
     display: inline-block;
 }
 
-.header .downloads .doc i {
-    background-image: url("img/icon_doc.png");
-}
-
-.header .downloads .pdf i {
-    background-image: url("img/icon_pdf.png");
-}
 
 .nav {
     border-bottom: 2px solid #999;
@@ -200,9 +193,9 @@ a:hover {
     max-height: 34px;
 }
 
-.nav a:hover {
-    color: #55F;
-}
+/*.nav a:hover {*/
+    /*color: #55F;*/
+/*}*/
 
 .nav .email-promo {
     position:absolute;
@@ -306,7 +299,7 @@ a:hover {
 
 .footer  {
     padding: 8px 0 0 0;
-    font-size: 8px;
+    font-size: 12px;
     text-align: center;
     line-height: 1.2em;
     color: #777;
@@ -330,7 +323,6 @@ a:hover {
     padding: 0;
     overflow: auto;
     min-height: 250px;
-    background-color: #f0f0f0;
 
 }
 
@@ -546,9 +538,13 @@ a:hover {
 }
 
 .skills .technologies .skill.tag {
-    padding: 6px 0 8px 0;
-    background-color: #e6e6e6;
+    padding: 6px 0px 8px 0px;
+    margin: 5px 3px;
     overflow: hidden;
+    background-color: rgb(152,222,255);
+    box-shadow: 4px 3px 1px 0px rgb(193,215,234);
+    border-radius: 10px;
+    text-align: center;
 }
 
 .skills > div {

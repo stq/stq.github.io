@@ -219,7 +219,7 @@ var Profile = {
                     name: "Tinkoff Bank online banking client for organizations",
                     role: "Senior Developer",
                     participation: "Development, review, couching",
-                    skills: "Javascript, AngularJS, Webpack, Gulp, Node.js, HTML/CSS"
+                    skills: "Javascript, AngularJS, Angular2, Typescript, Webpack, Gulp, Node.js, HTML/CSS"
                 }
             ]
         },
@@ -234,17 +234,17 @@ var Profile = {
               },
               {
                 range: ["Jan, 2018", "Apr, 2018"],
-                name: "Comparethemarket energy providers comparing webapp",
+                name: "\"Comparethemarket\" webapp for comparing energy providers",
                 role: "Senior Developer",
                 participation: "Backend development",
                 skills: "Javascript, Node.js, Mongodb"
               },
               {
                 range: ["May, 2018", "Aug, 2020"],
-                name: "Comparethemarket banking services comparing 5 webapps",
+                name: "\"Comparethemarket\" multiple webapps to compare different banking services and products",
                 role: "Senior Developer",
                 participation: "Webapp from scratch, webapp support, middleware support, backend development, backend support",
-                skills: "React, Webpack, Javascript, Node.js, HTML/CSS"
+                skills: "React, Webpack, Javascript, Node.js, Swagger, HTML/CSS"
               }
             ]
         }

@@ -1,0 +1,19 @@
+{
+  "name": "stq.github.io",
+  "version": "1.0.0",
+  "description": "Personal page",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stq/stq.github.io.git"
+  },
+  "author": "Viktor Kachan",
+  "license": "ISC"
+}
