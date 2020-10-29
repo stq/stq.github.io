@@ -301,8 +301,8 @@
             <% if ( project.isLast ) { %>
             <div class="company">
                 <span><%= project.company.name %></span>
-                (<%= Util.formatRangeVerbose("from", "to", project.company.stats.startDate, project.company.stats.endDate) %>,
-                totally <%= Util.formatMonthDuration(project.company.stats.duration) %>)
+                <%= Util.formatRangeVerbose("", "to", project.company.stats.startDate, project.company.stats.endDate) %>,
+                <%= Util.formatMonthDuration(project.company.stats.duration) %>
             </div>
             <% } %>
 
@@ -343,7 +343,7 @@
 
                              <div class="participation">
                                 <table>
-                                    <tr><td>Role(s):</td><td class="info"><%= project.role %></td><td class="achievement" style="<%= !project.achievements ? 'border: none' :''%>"><%= project.achievements ? "Achievement:" : "" %></td></tr>
+                                    <tr><td>Role:</td><td class="info"><%= project.role %></td><td class="achievement" style="<%= !project.achievements ? 'border: none' :''%>"><%= project.achievements ? "Achievement:" : "" %></td></tr>
                                     <tr><td>Participation:</td><td class="info"><%= project.participation%></td><td class="achievement" style="<%= !project.achievements ? 'border: none' :''%>"><%= project.achievements%></td></tr>
                                 </table>
                              </div>
@@ -405,6 +405,8 @@
 <script type="text/javascript" lang="javascript" src="js/skills.js"></script>
 <!--Bulk data about my career in JSON format, used for career and skills sections-->
 <script type="text/javascript" lang="javascript" src="js/experience.json.js"></script>
+
+<script type="text/javascript" lang="javascript" src="js/router.js"></script>
 <!--Entry point script: routing, tab control, module control-->
 <script type="text/javascript" lang="javascript" src="js/script.js"></script>
 </html>

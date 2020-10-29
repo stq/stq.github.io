@@ -79,7 +79,7 @@ var Profile = {
                     range: ["Mar, 2009", "Apr, 2010"],
                     name: "UniCredit European Gate (automatic banking transactions conversion) : monitoring and admin webapps",
                     role: "Technical writer, Java developer, Java web developer",
-                    participation: "Project documentation, architecture support, consulting, status feedback. Introduction of CI process. Web client improvements, wicket model optimization, pipelines optmization.",
+                    participation: "Project documentation, architecture support, consulting, status feedback. Introduction of CI process. Web client improvements, wicket model optimization, pipelines optimization.",
                     achievements: "Documentation process introduction. Multiple code and process optimizations.",
                     skills: "ANTLR, UML, Java, Spring, Wicket, HTML/CSS, ORM Hibernate, Java EE Servlets, Enterprise Architect, Confluence, Cruise Control, Nexus, Team City"
                 }
@@ -103,9 +103,8 @@ var Profile = {
                 },{
                     range: ["Dec, 2010", "May, 2011"],
                     name: "Severstal ESK Contractor Management System",
-                    role: "Java portlet developer, Team lead",
+                    role: "Team lead",
                     participation: "Portal server maintenance, portlet implementation assistance, team training.",
-                    achievements: "Helped customer to fix server failure after midnight.",
                     skills: "Java, XML/XSD, WSDL, Axis, IBM XML Beans, JSP/EL/JSTL, HTML/CSS, Javascript, jQuery, Portlets, Java EE Servlets, Oracle AS, Oracle Portal, Orion Portlet Provider"
                 },{
                     range: ["Jun, 2011", "Jul, 2011"],
@@ -122,28 +121,26 @@ var Profile = {
                 },{
                     range: ["Sep, 2011", "Jan, 2012"],
                     name: "Whiteboard module for Mind.com webinars",
-                    role: "Lead developer, Team management",
+                    role: "Lead developer",
                     participation: "Technology assistance, project management, development.",
                     achievements: "Project management skills, SVG experience.",
                     skills: "Java, HTML/CSS, SVG, VML, RaphaelGWT, Raphael, Guava, ORM Hibernate, Javascript, jQuery, Java EE Servlets, JBoss, PostGRE"
                 },{
                     range: ["Feb, 2012", "Apr, 2012"],
-                    name: "Mind.com webinars",
-                    desc: "Online webinars system.",
+                    name: "Mind.com webinars.",
                     role: "Java developer, Web developer",
                     participation: "Development of various features and improvements.",
                     skills: "Java, HTML/CSS, SVG, VML, RaphaelGWT, Raphael, Guava, Hibernate, Java EE Servlets, JBoss, PostGRE"
                 },{
                     range: ["May, 2012"],
-                    name: "YouTube downloader",
-                    desc: "Software which allows downloading youtube videos.",
+                    name: "YouTube downloader - utility for downloading youtube videos.",
                     role: "Java developer",
                     participation: "Research, development.",
                     skills: "Java, YouTube API, FLV, Video encoding"
                 },{
                     range: ["Jun, 2012"],
                     name: "CeConvergence : money accountant training courses web app",
-                    role: "Java web developer, Java backend developer",
+                    role: "Java developer",
                     participation: "Development of various features.",
                     skills: "Java, Spring, PL/SQL, Oracle"
                 },{
