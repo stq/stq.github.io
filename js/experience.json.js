@@ -244,6 +244,17 @@ var Profile = {
                 skills: "React, Webpack, Javascript, Node.js, Swagger, HTML/CSS"
               }
             ]
+        },
+        "Kyriba": {
+            projects: [
+              {
+                range: ["Nov, 2020", "Aug, 2022"],
+                name: "Kyriba finance tool (treasury, risk management, payments and working capital)",
+                role: "Lead Developer",
+                participation: "Frontend technology upgrade, BAU tasks",
+                skills: "Java, GWT, React"
+              }
+            ]
         }
     }
 }
