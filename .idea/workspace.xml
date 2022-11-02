@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55d0cb45-f130-4d1d-abcc-45ddfbb0292c" name="Changes" comment="">
+    <list default="true" id="55d0cb45-f130-4d1d-abcc-45ddfbb0292c" name="Changes" comment="Some corrections for pdf cvs">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/VictorKachan_CV_2022.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/VictorKachan_CV_2022_RU.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/photo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/stq.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/stq.github.io.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
@@ -179,12 +181,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/my_site/stq.github.io",
+    "last_opened_file_path": "C:/my_site/stq.github.io/img",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\my_site\stq.github.io\img" />
       <recent name="C:\my_site\stq.github.io" />
     </key>
   </component>
@@ -197,6 +200,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667387130759</updated>
     </task>
+    <task id="LOCAL-00001" summary="Some corrections for pdf cvs">
+      <created>1667387866548</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667387866548</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +223,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Some corrections for pdf cvs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some corrections for pdf cvs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
