@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="55d0cb45-f130-4d1d-abcc-45ddfbb0292c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/VictorKachan_CV_2022.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VictorKachan_CV_2022_RU.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/stq.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/stq.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detailed.html" beforeDir="false" afterPath="$PROJECT_DIR$/detailed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-68e49ba6b6c0effeae1c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-68e49ba6b6c0effeae1c.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-68e49ba6b6c0effeae1c.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/c654eece-59ed35fde9b83bbc5228.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/c654eece-59ed35fde9b83bbc5228.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/chunk-map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/commons-ad39aee1f88a3a389814.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/commons-ad39aee1f88a3a389814.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/commons-ad39aee1f88a3a389814.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-404-js-ef90c81c415a34794234.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-404-js-ef90c81c415a34794234.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-js-fb8f2a65c0a1e676bfa1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-js-fb8f2a65c0a1e676bfa1.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-js-fb8f2a65c0a1e676bfa1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/framework-20a5997317bb9b9e1a19.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/framework-20a5997317bb9b9e1a19.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/framework-20a5997317bb9b9e1a19.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-256x256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-384x384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/404.html/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/404/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/app-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/index/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/sq/d/63159454.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/polyfill-0ea2cfca192f77b7bec9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/polyfill-0ea2cfca192f77b7bec9.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ac-42139f7cc8f09d90c8e43c4cca1923a7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ac-8ab65b7168da5d0907ece0c811ba27d8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ad-8c821c9a108a35aa6bb0935e6cb2d131.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ad-b2946bd89485be3b8b641a5385634bb3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/af-7773ac255fbd01c79357cc2eded69ee5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/af-80deffc567027c82fc0dd8136826da5d.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ai-61c09b79f9b83dca2e696b364721df05.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ai-68783b8780359c6495459aaeb6fa1775.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/as-480b9e78b3b7fd1852e4dc1e818b3d87.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/as-bbe697d2ff84b5329096b2ecfaffc03e.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/aw-2f7fecc27def310bdafd500207aaf928.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/bm-21debc2e785ee90e5cb17e4d1e51c2ef.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/bm-cee8f686b0b77d25756f5efe59d4b31b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/bn-62e7e8c1e3668e7e8a3dfd82ab2d9233.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/bn-d5a2d91852038fab108963ea00f36712.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/bo-12b86d07050ceee461eb0a600809a1ba.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/bo-b1232fed4a8a6f174e8e7fd6b168c4ec.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/bt-552a870b8d0ff0782265b123c624e830.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/bt-d35b5dd296478dbb051851d853a280f0.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/bz-10078a026b33398e760e021504be9b31.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/bz-49323c5b9a440ff75d26b90859919a8e.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/dg-df9cbaffd7777eaaefec825e520ad75a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/dg-eafc32b423ba7e263e2e422db6fa6485.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/dm-0c78650ea93ae43ed002ab7f22fe7707.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/dm-3de3461422d9c4e03e74c052e60207a3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/do-15da3a8ecca29c7fc63ec6c1573dabfa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/do-19306ca7781bd328d8e373b321a81421.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ea-2923777bf064e77b39a18fa2a4cd3ed6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ea-a4525b4f78f41ec588eaa17fea35de4d.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ec-89c7836755e3cafbec06fab5d4695631.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ec-d8b5c15adb4f81491e29980a0540b833.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/es-91221aeba452aeb57c55826c70920835.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/es-ebd9bcf21fb645e3f1ad336fdc4b9f88.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/es-ga-186685299735a4fd2ac07d20479336a6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/es-ga-e80a14487ff008bf15cbc5636fb31ad5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/fj-017e64ee8605bd5e12e9d5be7e0641e9.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/fj-16e1816076d0cd120e7d35ba7538f445.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/fk-2d1942369df648d5f20a67a5a2299dbd.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/fk-cf221ea3dffa5c692f519030d05b9496.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/gb-nir-4bcdeacbaadb89951a2cf091276e6bd9.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/gb-nir-ef8d6ec9a4ea5a559f20bd4b4f5ff0e5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/gs-311d5328812142ea93de2cd070fac97c.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/gs-e217176641908e21302f9430ec9c15f7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/gt-9e6c4331a81db6f16830e022daa9cd1a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/gt-e1b132f7b15f32e043ffd67a0eda9e5d.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/hr-9b7fd1f4bbdbe44a159903d73ac3a7e1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/hr-a7f61bab01800e41cf51756bedc0e9da.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ht-800c2d430e2fe1a803310060c5d56a27.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ht-d2c21946524d38df018234c8bc96afc4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/im-ca8e886c047395d74bdc94139f812b90.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/io-2a056db8500f1b4857c8933a56f386f7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/io-80c8fbde7801543dbde12e87fd83e9a0.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ir-9bb2c335fa3c0949207d62c6cb03bdd6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ir-c7dc57d648b754797f1ce7abe2064444.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ky-5f7012e66f76fda1f4cb5828dd5b2e5c.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ky-e33a7813b55efa207856a5475f6a397c.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/kz-263fd9387aa84ebfb4f501c30df2c7f7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/kz-9c31d1cbcd24130fbaa98f75a9cf0954.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/lk-03c20243a2f8082383e0672698894aa1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/lk-9018cbe9a08c7c446eb40150013dc91f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/md-d4e707da066346718010da32dcbf1802.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/md-d692cd261cdb5fddab55e51cb48eba57.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/me-144e25db369a068c521780d81ee22bcb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/me-af7398f3281863944d779a77ea6354df.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/mp-2f14f98617b08e34dfe0aeee54087fda.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/mp-fcca6f222c12fe74ee924f54df5a47f5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/mt-485b92ba43322d0991016a13ac4f63c9.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/mx-8daf58397a26b4ca719f4794f42050a1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/mx-d326007cf87dba95a56cb4a25b408558.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ni-55d27877cf32791888892abd5f92b4ed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ni-5d25063c36586808c99e08b94217b794.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/om-b2eda9710f86ac203c7faa8c217a2c67.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/om-d8fbf0d229e2fa0745371e95cf773018.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/pe-9336bb9fae1574a4a1dca24020fd2175.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/pe-c0d3dc9889d6ee8ecee9f05b0028ddd7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/pn-4dffd3555c98433cbccfb932d3427cac.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/pn-7d49d6f9d00d6e435c6d34084f21491f.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/py-d3e57b21c6b9cbe61a792e6592e1811b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/py-e16a905eb12173f7df1c0cb01d299477.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/rs-30a43dc04af961a71fdec9e094f952e4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/rs-47e0b9027d6e6593bf51e1536265c7f2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/sa-2f36a78f82a0bd21ecba6a92770a251b.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/sa-8950e015955c87e6d7c8944abc9215e0.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/sh-42100063de4741612cb71e9eb2c246a8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/sh-d6b5d6490da14c67c2b0301903a4bda8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/sm-1553b4ae7cafa07d21a6c993224568ab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/sm-ef685a184ac2ab0ce84a8e775eb80ad5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/sv-2e44b8d35c6d3192f072f15ae1215e29.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/sv-b880c91335cf1668f0af1347668636b3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/sx-1ca5cba81f81e2e5763c1e39a822983d.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/sx-f37487ff7758754b74f5b437c8a31bce.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ta-3b962f855659dbe313642b98836f2edd.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/ta-cd7f394fecf83213ed4c64d8a28e3af5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/tm-645e64b860c400bc9b6cd351cd501d0c.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/tm-a1c18f1aeedd55fb7818bd2d7fa4ce83.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/un-19f1d0dff60aad9004ae476c88477ed8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/un-5232b1ea60a370c46c7e3cae2d8bd00e.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/va-0b05f974fd49651e6471c73e2db845c5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/va-e06e2790c52620f7ef00239f3dbc2e70.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/vg-7f3d9e1966bbcb4aa46cc61b9ff1e7e2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/vg-b1c5905335f081d7e537a1b8db1088aa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles-fca7806e176b2204f5b5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles-fca7806e176b2204f5b5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles.feaa26a430e1b9ff8aac.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-16368ea29445669b544e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-16368ea29445669b544e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack.stats.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="assetlist" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GzMo30ia5xwS3I2IbWQjJteCS4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/my_site/stq.github.io",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\my_site\stq.github.io" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55d0cb45-f130-4d1d-abcc-45ddfbb0292c" name="Changes" comment="" />
+      <created>1667387130759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667387130759</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/headerfx.js</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
